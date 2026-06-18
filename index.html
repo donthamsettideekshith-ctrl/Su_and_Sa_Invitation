@@ -15,21 +15,34 @@
   @font-face{font-family:'Lato';src:url('fonts/Lato-Regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap;}
   @font-face{font-family:'Lato';src:url('fonts/Lato-Bold.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap;}
 
-  :root{
-    --wine:#7a1d2e;
-    --wine-deep:#5e1422;
-    --rose:#c97b86;
-    --rose-soft:#d99aa2;
-    --blush:#f6e4e1;
-    --blush-deep:#f0d4ce;
-    --cream:#faf1ea;
-    --cream-warm:#f7ece2;
-    --gold:#cfa15c;
-    --gold-soft:#e0c389;
-    --ink:#4a3b39;
-    --ink-soft:#8a726d;
-    --frost:rgba(255,250,246,0.72);
-  }
+ :root{
+  /* Primary Colors */
+  --wine:#1E3A5F;          /* Royal Blue */
+  --wine-deep:#0F1F35;     /* Deep Navy Blue */
+
+  /* Accent Blues */
+  --rose:#4F81BD;          /* Steel Blue */
+  --rose-soft:#7FA8D8;     /* Soft Sky Blue */
+
+  /* Silver Shades */
+  --blush:#E8EDF2;         /* Light Chrome Silver */
+  --blush-deep:#D5DCE3;    /* Medium Silver */
+
+  /* Background Colors */
+  --cream:#F5F7FA;         /* Ice White */
+  --cream-warm:#EEF2F6;    /* Cool Silver White */
+
+  /* Chrome Metallic */
+  --gold:#B8C2CC;          /* Chrome Silver */
+  --gold-soft:#DCE3EA;     /* Polished Silver */
+
+  /* Text */
+  --ink:#2F3E4D;           /* Dark Slate Blue */
+  --ink-soft:#6F7F91;      /* Muted Blue Gray */
+
+  /* Glass Effects */
+  --frost:rgba(245,248,252,0.75);
+}
   *{margin:0;padding:0;box-sizing:border-box;}
   html{scroll-behavior:smooth;}
   body{font-family:'Lato',sans-serif;background:#e9d9d2;color:var(--ink);overflow-x:hidden;}
